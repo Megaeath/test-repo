@@ -14,7 +14,7 @@ pipeline {
                 echo 'Starting the build process...'
                 // Execute your build script from the previous lesson
                 // Make sure your build_script.sh (or .bat) is executable and in your repo
-                sh './build_script.sh' // For Linux/macOS
+                // sh './build_script.sh' // For Linux/macOS
                 // bat 'build_script.bat' // Uncomment and use for Windows
             }
         }
